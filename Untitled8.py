@@ -20,10 +20,10 @@ for b in range(5, 1001, 5):
 
 
 for c in range(1, 101):
-    if c % 5 == 0:
-        print("Coding")
-    elif c % 10 == 0:
+    if c % 10 == 0:
         print("Coding Dojo")
+    elif c % 5 == 0:
+        print("Coding")
     else:
         print(c)
 
